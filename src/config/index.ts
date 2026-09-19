@@ -17,7 +17,7 @@ export const SITE_CONFIG: SiteConfig = {
   socialLinks: [
     { text: "LinkedIn", href: "https://www.linkedin.com/in/jose-ferreccio-4211901b5/" },
   ],
-  socialImage: "/zen-og.png",
+  socialImage: "/og-image-jose-ferreccio.svg",
   canonicalURL: "https://jgferreccior-dev.github.io/",
 };
 
