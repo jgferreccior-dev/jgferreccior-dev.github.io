@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#070c12"/>
+<rect x="55" y="55" width="1090" height="520" rx="28" fill="#0b1119" stroke="#233043" stroke-width="2"/>
+<rect x="55" y="55" width="12" height="520" rx="6" fill="#2f69eb"/>
+<text x="105" y="185" fill="#f2f6fa" font-family="Arial,Helvetica,sans-serif" font-size="64" font-weight="700">José Gerardo</text>
+<text x="105" y="265" fill="#f2f6fa" font-family="Arial,Helvetica,sans-serif" font-size="64" font-weight="700">Ferreccio Riega</text>
+<text x="105" y="355" fill="#3f7cff" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="700">Digital Media &amp; SEO Specialist</text>
+<text x="105" y="420" fill="#aeb9c9" font-family="Arial,Helvetica,sans-serif" font-size="25">Estrategia digital · SEO · Content Marketing · Social Media</text>
+<text x="105" y="462" fill="#aeb9c9" font-family="Arial,Helvetica,sans-serif" font-size="25">Performance Marketing · Analítica</text>
+<text x="105" y="525" fill="#78899d" font-family="Arial,Helvetica,sans-serif" font-size="21">Portfolio profesional</text>
+</svg>
