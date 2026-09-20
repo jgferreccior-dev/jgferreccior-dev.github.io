@@ -20,7 +20,7 @@ jobs:
       - name: Download high-resolution social preview image
         run: |
           mkdir -p public
-          curl -L --fail --retry 3 -o public/og-image-jose-ferreccio-v2.jpg "https://d2ol7oe51mr4n9.cloudfront.net/user_3HmQhGIgB0TFCiURLf7Kdm8HLwe/8c3c22f0-7c7b-45e2-a9a0-42b7f164e3d9.jpg"
+          curl -L --fail --retry 3 -o public/og-image-jose-ferreccio-v3.png "https://d2ol7oe51mr4n9.cloudfront.net/user_3HmQhGIgB0TFCiURLf7Kdm8HLwe/c67052a6-f7f7-4d93-a6a7-67681a15a9a6.png"
           file public/og-image-jose-ferreccio-v2.jpg
 
       - name: Install, build, and upload Astro site
