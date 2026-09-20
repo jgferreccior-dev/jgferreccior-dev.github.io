@@ -18,7 +18,7 @@ const { title = siteTitle, description = siteDescription, profilePage = false, s
 const isHome = Astro.url.pathname === "/";
 const canonicalBase = canonicalURL ?? "https://jgferreccior-dev.github.io/";
 const resolvedCanonical = new URL(Astro.url.pathname, canonicalBase).href;
-const ogImgUrl = "https://placehold.co/1200x630/070c12/f2f6fa/png?text=Jos%C3%A9%20Gerardo%20Ferreccio%20Riega%0ADigital%20Media%20%26%20SEO%20Specialist";
+const ogImgUrl = "https://jgferreccior-dev.github.io/og-image-jose-ferreccio.jpg";
 const resolvedNavLinks = navLinks.map((link) => ({ ...link, href: isHome || !link.href.startsWith("#") ? link.href : `/${link.href}` }));
 const personSchema = {
   "@type": "Person",
@@ -68,9 +68,9 @@ const structuredDataJson = structuredData ? JSON.stringify(structuredData) : nul
     <meta property="og:url" content={resolvedCanonical} />
     <meta property="og:image" content={ogImgUrl} />
     <meta property="og:image:alt" content={`${author} — ${title}`} />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="210" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content={resolvedCanonical} />
     <meta name="twitter:title" content={title} />
