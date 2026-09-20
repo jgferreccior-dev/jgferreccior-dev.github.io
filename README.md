@@ -42,3 +42,6 @@ Cada push a `main` ejecuta el workflow de GitHub Actions y publica el sitio en G
 Sitio: https://jgferreccior-dev.github.io/
 
 LinkedIn: https://www.linkedin.com/in/jose-ferreccio-4211901b/
+
+
+Social preview: 1200×630 high-resolution image configured for link sharing.
