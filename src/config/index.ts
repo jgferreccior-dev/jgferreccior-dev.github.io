@@ -30,6 +30,13 @@ export const SITE_CONTENT: SiteContent = {
   },
   experience: [
     {
+      company: "Activa Capital Group", position: "Líder de Marketing Digital", startDate: "2026", endDate: "Actualidad",
+      summary: [
+        "Desarrollo estrategias de contenidos y campañas digitales para productos financieros, educación empresarial, franquicias e inversiones en Facebook, Instagram y TikTok.",
+        "Trabajo en planificación editorial, guiones y reels, Meta Ads, auditoría SEO, análisis de indicadores y captación de leads con integración prevista hacia CRM Kommo.",
+      ],
+    },
+    {
       company: "CICAJ — Pontificia Universidad Católica del Perú (PUCP)", position: "Community Manager", startDate: "Enero 2022", endDate: "Actualidad",
       summary: [
         "Incrementé el alcance de la comunidad digital en 275% y las visualizaciones de contenido en 448% en un trimestre, mediante calendarios editoriales, segmentación de audiencias y pauta digital en Meta Ads.",
@@ -72,6 +79,9 @@ export const SITE_CONTENT: SiteContent = {
     },
   ],
   projects: [
+    {
+      name: "Activa Capital — Marketing digital y contenidos", role: "Líder de Marketing Digital", period: "2026 — Actualidad", summary: "Estrategia de Social Media, producción de reels, educación financiera, campañas Meta Ads y diagnóstico SEO para una empresa peruana de financiamiento e inversiones.", metrics: [["3", "redes sociales en estrategia"], ["87/100", "diagnóstico SEO inicial"]], linkPreview: "/proyectos/activa-capital", linkSource: "https://www.facebook.com/activacapitalgroup/", image: "/project-activa-capital.svg",
+    },
     {
       name: "CICAJ — Estrategia de crecimiento digital", role: "Community Manager", period: "2022 — Actualidad", summary: "Estrategia de contenidos, Social Media y Meta Ads para comunicación académica e institucional dirigida a audiencias de posgrado.", metrics: [["+275%", "alcance digital"], ["+802%", "clics hacia contenidos"]], linkPreview: "/proyectos/cicaj", linkSource: "https://cicaj.pucp.edu.pe/", image: "/project-cicaj.svg",
     },
