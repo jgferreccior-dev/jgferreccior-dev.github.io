@@ -1,4 +1,26 @@
 export const caseStudies = {
+  "activa-capital": {
+    title: "Activa Capital — Estrategia de marketing digital",
+    eyebrow: "Caso de estudio · Marketing financiero",
+    intro: "Planificación y ejecución de contenidos multiplataforma, campañas publicitarias y análisis digital para comunicar soluciones de financiamiento, inversión y educación empresarial.",
+    organization: "Activa Capital Group · Perú",
+    role: "Líder de Marketing Digital",
+    period: "2026 — Actualidad",
+    image: "/project-activa-capital.svg",
+    reference: "https://www.facebook.com/activacapitalgroup/",
+    metrics: [["3", "plataformas de contenido"], ["87/100", "puntaje de auditoría SEO inicial"], ["16", "reels planificados en grilla de octubre"], ["90", "días de planificación estratégica"]],
+    challenge: "Comunicar servicios financieros complejos con mensajes claros y confiables, diferenciar contenidos de reconocimiento, educación y conversión, y ordenar la medición digital para conectar las redes con oportunidades comerciales.",
+    approach: [
+      "Auditoría de redes sociales y diagnóstico SEO del sitio web para identificar oportunidades de contenido, posicionamiento y medición.",
+      "Diseño de grillas editoriales y guiones para reels, carruseles y publicaciones estáticas en Facebook, Instagram y TikTok.",
+      "Desarrollo de contenidos sobre préstamos con garantía hipotecaria y vehicular, educación financiera, franquicias, inversiones y casos de clientes.",
+      "Producción editorial y difusión de entrevistas y cápsulas de ADN Emprendedor, con hooks, llamados a la acción y adaptación a formatos verticales.",
+      "Planificación de campañas en Meta Ads con objetivos de reconocimiento y generación de leads calificados, y trazabilidad prevista hacia Kommo.",
+      "Desarrollo de propuestas de SEO técnico, arquitectura de contenidos, experiencia móvil y optimización de la presentación social del sitio.",
+    ],
+    results: "El trabajo documentado incluye un diagnóstico SEO inicial de 87/100, una propuesta estratégica de 90 días y una grilla de octubre con 16 reels planificados. Estas cifras describen auditorías y entregables, no mejoras de rendimiento atribuibles a las campañas. Los resultados de crecimiento, leads y conversiones se incorporarán cuando existan reportes posteriores verificables.",
+    skills: "Digital Strategy · Social Media · Reels · Copywriting · Meta Ads · Lead Generation · SEO Audit · Content Planning · Marketing Analytics",
+  },
   cicaj: {
     title: "CICAJ — Estrategia de crecimiento digital",
     eyebrow: "Caso de estudio · Comunicación académica",
