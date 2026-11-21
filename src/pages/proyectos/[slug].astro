@@ -134,6 +134,55 @@ const caseStudySchema = {
       </aside>
     </div>
 
+
+    {Astro.params.slug === "activa-capital" && (
+      <section id="galeria" class="mt-14 md:mt-20" aria-labelledby="gallery-title">
+        <div class="mb-8">
+          <p class="mb-3 text-xs font-semibold uppercase tracking-[0.18em] text-primary">Archivo de publicaciones · Activa Capital</p>
+          <h2 id="gallery-title" class="font-serif text-3xl font-semibold text-white md:text-5xl">Galería de contenido real</h2>
+          <p class="mt-4 max-w-3xl text-sm leading-7 text-neutral md:text-base">
+            Selección de publicaciones originales enlazadas a las redes de Activa Capital, identificadas en la auditoría de julio a septiembre de 2026. Se presentan como referencias del ecosistema de contenidos analizado; su inclusión no implica autoría individual ni resultados atribuibles a mi gestión. Las creatividades producidas posteriormente se incorporarán con sus archivos o enlaces verificados.
+          </p>
+        </div>
+        {[
+          { category: "Reels", items: [
+            { title: "Liquidez para negocios", detail: "Contenido de financiamiento con narrativa orientada a necesidades empresariales.", url: "https://www.instagram.com/reel/DcqyRhpkeKY/" },
+            { title: "Emprendimiento: historia de Araceli", detail: "Entrevista vertical sobre el recorrido de una emprendedora.", url: "https://www.instagram.com/reel/Db1kbASiMHV/" },
+            { title: "Finanzas para empresarios", detail: "Pieza educativa con enfoque en conocimiento financiero.", url: "https://www.instagram.com/reel/DbRQFXlj_zM/" },
+          ]},
+          { category: "Campañas publicitarias", items: [
+            { title: "Financiamiento en Chincha", detail: "Creatividad geolocalizada para préstamos con garantía de propiedad. No se dispone del reporte de anuncios de esta pieza.", url: "https://www.instagram.com/reel/DboMGpOEVQu/" },
+            { title: "Campaña por Fiestas Patrias", detail: "Contenido comercial estacional orientado al crecimiento de negocios; no se atribuye rendimiento pagado.", url: "https://www.instagram.com/reel/DbGZgqHDziZ/" },
+          ]},
+          { category: "Carruseles", items: [
+            { title: "Cinco señales de falta de liquidez", detail: "Carrusel educativo sobre gestión financiera empresarial.", url: "https://www.instagram.com/p/DbuKrKPmYEy/" },
+            { title: "¿Conviene endeudarse?", detail: "Contenido explicativo que vincula financiamiento y objetivos.", url: "https://www.instagram.com/p/DbEAG5Zj76b/" },
+            { title: "Clientes y proyectos", detail: "Secuencia de prueba social y comunicación de marca.", url: "https://www.instagram.com/p/Dco2k0EAXnL/" },
+          ]},
+          { category: "ADN Emprendedor", items: [
+            { title: "Invitados de ADN Emprendedor", detail: "Carrusel que presenta a los participantes del formato de entrevistas.", url: "https://www.instagram.com/p/DbgilBHjuM0/" },
+            { title: "Entrevista: Fanny Huapaya", detail: "Historia personal y emprendimiento en formato reel.", url: "https://www.instagram.com/reel/Da6IesHkbHr/" },
+          ]},
+        ].map((group) => (
+          <div class="mb-12">
+            <h3 class="mb-5 border-b border-white/10 pb-3 font-serif text-2xl font-semibold text-white">{group.category}</h3>
+            <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {group.items.map((item) => (
+                <a href={item.url} target="_blank" rel="noopener noreferrer" class="group flex min-h-48 flex-col justify-between rounded-2xl border border-white/10 bg-[#101720] p-6 transition hover:border-primary/60 hover:bg-[#14202a] focus:outline-none focus:ring-2 focus:ring-primary">
+                  <div>
+                    <p class="mb-4 text-[11px] font-semibold uppercase tracking-[0.15em] text-primary">{group.category} · Instagram</p>
+                    <h4 class="font-serif text-xl font-semibold text-white group-hover:text-primary">{item.title}</h4>
+                    <p class="mt-3 text-sm leading-6 text-neutral">{item.detail}</p>
+                  </div>
+                  <span class="mt-6 text-sm font-semibold text-primary">Ver publicación original ↗</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        ))}
+      </section>
+    )}
+
     <div class="mt-16 flex flex-col gap-4 border-t border-white/10 pt-8 sm:flex-row sm:items-center sm:justify-between md:mt-20">
       <a href="/#projects" class="text-sm font-semibold text-white transition hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary">← Explorar más proyectos</a>
       <a href="/#contact" class="text-sm font-semibold text-primary transition hover:text-white focus:outline-none focus:ring-2 focus:ring-primary">Hablemos →</a>
